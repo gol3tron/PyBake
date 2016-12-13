@@ -25,16 +25,16 @@ class Recipe(object):
     
     def checkInput(self):
         if (type==[]):
-            print("You are a dumbass. You forgot to add the type.")
+            print("Careful! You forgot to add the type.")
 
         else if (flavors==[]):
-            print("You are a dumbass. You forgot to add the flavors.")
+            print("Careful! You forgot to add the flavors.")
 
         else if (restrictions==[]):
-            print("You are a dumbass. You forgot to add the restrictions.")
+            print("Careful! You forgot to add the restrictions.")
 
         else if (ingredients==[]):
-            print("You are a dumbass. You forgot to add the ingredients.")
+            print("Careful! You forgot to add the ingredients.")
                 
         else:
             print("Well done. You are not an idiot. #SlowSalute")
